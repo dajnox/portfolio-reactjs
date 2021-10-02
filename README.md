@@ -12,7 +12,7 @@
 
 ## Installation
 
-- **[npm][npm]:** `npm install`
+- **[npm](https://www.npmjs.com/):** `npm install`
 
 ## Contributing
 
