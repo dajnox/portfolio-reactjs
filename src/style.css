@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+
+body {
+	background: linear-gradient(-45deg, #37335b, #37335b, #282a2b, #37335b);
+	background-size: 300% 300%;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+span {
+    display: flex;
+  }
+
+
+.card-body {
+    margin-top: 10rem;
+    background: #282a2b;
+    border-radius: 5px;
+    margin-bottom: 55px;
+    text-align: center;
+    padding: 2rem;
+    -webkit-box-shadow: 0px 2px 14px 2px #121212; 
+    box-shadow: 0px 2px 14px 2px #121212;
+}
+
+.card-body::before {
+    content: "";
+    right: 0rem;
+    top: -1%;
+    position:absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(-130deg
+, #37335b, #37335b,#282a2b, #282a2b);
+    transition: all 0.5s ease;
+    
+}
+
+.card-body:hover {
+    background: #282a2b;
+    transform: scale(1.1);
+}
+
+.card-body:hover:before {
+    height: 180px;
+}
+
+.card-infobatt {
+    text-align: center;
+    padding: 2rem 0 0 0;
+    color: #eeeeee;
+}
+
+.card-infobatt svg {
+    transform: rotate(
+270deg);
+    font-size: 20px;
+}
+
+.card-infobatt img {
+    width: 10%;
+    margin-bottom: 8px;
+}
+.card-infobatt .satvrijeme {
+    display: inline;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 18px;
+    border-left: 2px solid #eeeeee;
+    padding-left: 5px;
+    border-radius: 2px;
+
+}
+
+.card-icon {
+    position: relative;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.card-icon img {
+    position: initial;
+    left: 50%;
+    box-shadow: 0px 0px 10px 1px #121212;
+    top: 50%;
+    border-radius: 90px;
+    width: 50%;
+}
+
+.card-icon img.image-hover {
+    position: absolute;
+    width: 51%;
+    left: 24.5%;
+    top: -0.5%;
+      opacity: 0;
+      transition: opacity .2s;
+}
+
+.card-icon:hover img.image-hover {
+    opacity: 1;
+}
+
+.card-title {
+    background: #282a2b;
+    text-align: center;
+    color: #eeeeee;
+    padding: 6px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+    margin-bottom: -2rem;
+    text-transform: uppercase;
+}
+
+.card-title span {
+    color:#eeeeee;
+    outline: 0;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 300;
+    display: inline;
+}
+
+.card-title p {
+    color: #eeeeee;
+    overflow: 0;
+    font-weight: 600;
+    outline: 0;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.card-desc {
+    background: #282a2b;
+    text-align: center;
+    color: #a7a7a7;
+    padding: 6px 0 2rem;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.card-desc h4 {
+    color: #eeeeee;
+    overflow: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.card-random {
+    background: #282a2b;
+    text-align: center;
+    color: #a7a7a7;
+    padding: 6px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.card-random h4 {
+    color: #eeeeee;
+    overflow: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.card-random p {
+    color: #9a9a9a;
+    overflow: 0;
+    font-weight: 400;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.card-footer {
+    background: #282a2b;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 300;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.card-footer p {
+    font-size: 17px;
+    margin-top: 5rem;
+}
+
+.card-socials {
+    background: #282a2b;
+    text-align: center;
+    color: #a7a7a7;
+}
+
+.card-socials img {
+    width: 7%;
+    padding-right: 5px;
+}
+
+
