@@ -16,5 +16,5 @@
 
 ## Contributing
 
-Create a [new issue][new-issue] to report problems or request features. You can also support the project via [donations](https://www.buymeacoffee.com/dajnox/).
+Create a [new issue][https://github.com/dajnox/portfolio-reactjs/issues/new] to report problems or request features. You can also support the project via [donations](https://www.buymeacoffee.com/dajnox/).
 
