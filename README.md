@@ -2,6 +2,8 @@
 
 **"HS Portfolio"** is my personal portfolio that I worked on. It was done in ReactJS. It is easy to use and very interesting.
 
+![Screenshot 1](https://github.com/dajnox/portfolio-reactjs/blob/main/Screenshot_1.png?raw=true)
+
 ## Features
 
 - Full responsive
@@ -16,5 +18,13 @@
 
 ## Contributing
 
-Create a [new issue](https://github.com/dajnox/portfolio-reactjs/issues/new) to report problems or request features. You can also support the project via [donations](https://www.buymeacoffee.com/hajrudinsoftic).
+Create a [new issue](https://github.com/dajnox/portfolio-reactjs/issues/new) to report problems or request features. 
+
+## Support me
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/hajrudinsoftic)
+
+## License
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
